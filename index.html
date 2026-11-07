@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the beaches, wildlife, nature and heritage of Mannar District, Sri Lanka.">
+  <title>Discover Mannar | Explore the North</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">D</span><span>DISCOVER<span class="brand-accent"> MANNAR</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a class="active" href="index.html">Home</a>
+      <a href="#destinations">Explore places</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="nav-cta" href="#destinations">Start exploring <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">SRI LANKA · NORTHERN PROVINCE</p>
+        <h1>Find your own<br><em>piece of paradise.</em></h1>
+        <p class="hero-copy">From coastal wetlands to historic landmarks, discover the places and stories that make Mannar unforgettable.</p>
+        <a class="button button-light" href="#destinations">Explore destinations <span>↘</span></a>
+      </div>
+      <div class="hero-note"><span class="note-line"></span><span>THE BEAUTY OF THE NORTH, WAITING TO BE FOUND</span></div>
+      <div class="hero-count"><strong>12</strong><span>PLACES TO<br>GET INSPIRED</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div>
+        <p class="eyebrow">A DISTRICT OF CONTRASTS</p>
+        <h2>More than a destination.<br><em>A thousand discoveries.</em></h2>
+      </div>
+      <p class="intro-copy">Mannar brings together coastal landscapes, ancient places of worship, colonial heritage and remarkable bird habitats. Use this guide to find somewhere new, plan a day out and explore the Northern Province at your own pace.</p>
+    </section>
+
+    <section class="destination-section section-wrap" id="destinations">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE DISCOVERY GUIDE</p>
+          <h2>Explore <em>Mannar</em></h2>
+        </div>
+        <p class="result-count" id="resultCount">12 destinations</p>
+      </div>
+
+      <div class="discover-controls">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input type="search" id="searchInput" placeholder="Search a place or area..." autocomplete="off">
+        </label>
+        <div class="filter-list" id="filterList" aria-label="Filter destinations">
+          <button class="filter-chip active" data-category="All">All places</button>
+          <button class="filter-chip" data-category="Beach">Beaches</button>
+          <button class="filter-chip" data-category="Wildlife">Wildlife</button>
+          <button class="filter-chip" data-category="Nature">Nature</button>
+          <button class="filter-chip" data-category="Heritage">Heritage</button>
+        </div>
+      </div>
+
+      <div class="destination-grid" id="destinationGrid" aria-live="polite"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <span>⌕</span><h3>No places found</h3><p>Try another name or choose a different category.</p>
+        <button class="text-button" id="resetFilters">Clear filters ↗</button>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="quote-inner">
+        <p class="eyebrow light">TAKE THE SCENIC ROUTE</p>
+        <h2>Slow down. Look around.<br><em>Let the North surprise you.</em></h2>
+      </div>
+    </section>
+
+    <section class="visit-strip section-wrap">
+      <div><p class="eyebrow">TRAVEL THOUGHTFULLY</p><h2>Leave every place<br><em>better than you found it.</em></h2></div>
+      <p>Respect local communities, follow wildlife and conservation guidance, dress appropriately at religious sites, and check current access information before travelling.</p>
+      <a class="button button-dark" href="#destinations">Find a destination <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand-footer" href="index.html"><span class="brand-mark">D</span><span>DISCOVER<span class="brand-accent"> MANNAR</span></span></a>
+    <p>A local discovery guide to Mannar District, Sri Lanka.</p>
+    <span class="footer-copy">© <span id="year"></span> Discover Mannar</span>
+  </footer>
+
+  <script src="js/places.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
