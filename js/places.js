@@ -13,7 +13,7 @@ const places = [
     ],
     "bestTime": "Visit during daylight and check whether conservation work restricts access.",
     "visitorInfo": "Respect barriers and protected masonry; access to some sections may be restricted.",
-    "image": "https://images.unsplash.com/photo-1606293926075-69a00db305e4?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place1.jpg",
     "mapQuery": "Mannar Fort, Mannar, Sri Lanka"
   },
   {
@@ -30,7 +30,7 @@ const places = [
     ],
     "bestTime": "Early morning or late afternoon is more comfortable in the dry, sunny climate.",
     "visitorInfo": "Be gentle around the tree and follow any local conservation guidance.",
-    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place2.jpg",
     "mapQuery": "Baobab Tree, Pallimunai, Mannar, Sri Lanka"
   },
   {
@@ -47,7 +47,7 @@ const places = [
     ],
     "bestTime": "Check temple notices for festival dates and daily worship arrangements.",
     "visitorInfo": "Dress modestly, remove footwear where required and follow temple photography rules.",
-    "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place3.jpg",
     "mapQuery": "Thiruketheeswaram Temple, Mannar, Sri Lanka"
   },
   {
@@ -64,7 +64,7 @@ const places = [
     ],
     "bestTime": "Large feast gatherings can affect transport and accommodation; check current dates before travelling.",
     "visitorInfo": "Be respectful during services and follow shrine visitor guidance.",
-    "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place4.jpg",
     "mapQuery": "Shrine of Our Lady of Madhu, Madhu, Mannar, Sri Lanka"
   },
   {
@@ -81,7 +81,7 @@ const places = [
     ],
     "bestTime": "Bird activity changes seasonally; the northern winter migration period is often productive.",
     "visitorInfo": "Use binoculars, keep a respectful distance and avoid disturbing nesting or feeding birds.",
-    "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place5.jpg",
     "mapQuery": "Vankalai Bird Sanctuary, Mannar, Sri Lanka"
   },
   {
@@ -98,7 +98,7 @@ const places = [
     ],
     "bestTime": "Plan around daylight and seasonal bird movements; check protected-area guidance before visiting.",
     "visitorInfo": "Stay on permitted routes and do not approach or feed wildlife.",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place5.jpg",
     "mapQuery": "Mannar Bird Sanctuary, Mannar, Sri Lanka"
   },
   {
@@ -115,7 +115,7 @@ const places = [
     ],
     "bestTime": "Check local access and transport conditions before making the trip.",
     "visitorInfo": "Do not enter restricted port, railway or coastguard areas.",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place6.jpg",
     "mapQuery": "Talaimannar Lighthouse, Mannar, Sri Lanka"
   },
   {
@@ -132,7 +132,7 @@ const places = [
     ],
     "bestTime": "Access and the condition of historic structures may vary; confirm locally before travelling.",
     "visitorInfo": "Treat the ruins as protected heritage and do not climb or remove materials.",
-    "image": "https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place7.jpg",
     "mapQuery": "Doric Bungalow, Arippu, Mannar, Sri Lanka"
   },
   {
@@ -149,7 +149,7 @@ const places = [
     ],
     "bestTime": "Viewing opportunities depend on weather, sea conditions and local access.",
     "visitorInfo": "This is a sensitive marine area; do not attempt unsafe crossings or enter restricted zones.",
-    "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place8.jpg",
     "mapQuery": "Adam’s Bridge viewpoint, Talaimannar, Sri Lanka"
   },
   {
@@ -166,7 +166,7 @@ const places = [
     ],
     "bestTime": "Late afternoon can be more comfortable; always check wind, tides and sea conditions.",
     "visitorInfo": "There may be limited facilities. Swim only where locally confirmed as safe and supervised.",
-    "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place9.jpg",
     "mapQuery": "Keeri Beach, Mannar, Sri Lanka"
   },
   {
@@ -183,7 +183,7 @@ const places = [
     ],
     "bestTime": "Visit in daylight and check local water and road conditions.",
     "visitorInfo": "Respect private farmland, irrigation infrastructure and any restricted areas.",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place10.jpg",
     "mapQuery": "Giant’s Tank, Murunkan, Mannar, Sri Lanka"
   },
   {
@@ -200,7 +200,7 @@ const places = [
     ],
     "bestTime": "Check road and bridge access before travelling, especially after heavy rain.",
     "visitorInfo": "Use the bridge only if it is open to visitors and follow posted safety limits.",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1200&q=85",
+    "image": "assets/place11.jpg",
     "mapQuery": "Kunchukulam Hanging Bridge, Mannar District, Sri Lanka"
   }
 ];
